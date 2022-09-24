@@ -9,7 +9,6 @@ weight_int = int(weight)
 # Output conversion
 bmi = round(weight_int / height_float ** 2)
 
-
 if bmi < 18.5:
   print(f"Your BMI is {bmi}, you are underweight.")
 elif bmi < 25:
